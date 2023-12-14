@@ -1,0 +1,15 @@
+
+iv) Write SQL Queries for following scenarios.(Create a text file and add queries and results)
+
+
+A. Get all the information of all Students.
+SELECT EmployeeId,FirstName,LastName,City FROM ManagementApp;
+
+B. Select student id, name and city from students who are from the ‘kandy’.
+SELECT * from ManagementApp WHERE city='kandy';
+
+C. Update the City as 'Galle' of the student whose id equals to 4 .
+UPDATE ManagementApp SET City='Galle' WHERE id=4;
+
+D. Get all the information of all students with their course names.
+SELECT * from ManagementApp ;
